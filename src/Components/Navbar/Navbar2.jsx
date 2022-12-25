@@ -6,10 +6,14 @@ import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 import { TiHeartOutline } from 'react-icons/ti';
 import { FaSearch } from 'react-icons/fa';
+import { ImSearch } from 'react-icons/im';
 import { BsFillHandbagFill } from 'react-icons/bs';
+import HamburgerNav from './HamburgerNav';
+import { Sling as Hamburger } from 'hamburger-react'
 
 export default function Navbar2() {
     const [cart, setCart] = useState([]);
+    const [isOpen, setOpen] = useState(false)
     console.log(cart.length)
 
     const getData = () => {
@@ -25,8 +29,8 @@ export default function Navbar2() {
 
 
     return (
-        // 
-        <div>
+
+        < div >
             <div className='navbar-2'>
 
                 <div className='navbar-2-1st-div'>
@@ -45,6 +49,23 @@ export default function Navbar2() {
                     <div className='cart-value'>{cart.length}</div>
                 </div>
             </div>
-        </div>
+            <div className='hamburger'>
+
+
+
+                <div>
+                    <Hamburger size="25" toggled={isOpen} toggle={setOpen} />
+                </div>
+                <img src="https://www.yoox.com/media/yoox16/header/yoox-logo-p.svg" alt="LOGO" />
+                <Link to="/search"><ImSearch color='black' size="20px" /></Link>
+                <Link to="/wishlist"><TiHeartOutline color='black' size="25px" /></Link>
+                <Link to="/cart"><BsFillHandbagFill color='black' size="20px" /></Link>
+            </div>
+            <div>
+                {
+                    isOpen ? <HamburgerNav /> : ""
+                }
+            </div>
+        </ div>
     )
 }

@@ -15,7 +15,7 @@ export default function Footer() {
     <div className='footer-container'>
       <div className='footer-1st-con'>
         <div>
-          <h4>NEW TO YOOX</h4>
+          <h3>NEW TO YOOX</h3>
           <hr />
           <p> Shopping guide</p>
           <p>iPhone/iPad/Android</p>

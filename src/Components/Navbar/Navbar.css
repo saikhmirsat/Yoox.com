@@ -13,6 +13,10 @@
     /* position: fixed; */
 }
 
+.hamburger {
+    display: none;
+}
+
 .navbar-1-divs {
     display: flex;
     justify-content: center;
@@ -95,55 +99,53 @@
 
 @media screen and (max-width:820px) {
     .navbar-1 {
-        font-size: 8px;
-        /* border: 1px solid red; */
-        width: 141%;
-        padding: 5px 10px;
-        height: 10px;
-        margin-left: 0px;
+        display: none;
     }
 
     .navbar-2 {
-        /* border: 1px solid gold; */
-        width: 138%;
-        padding: 5px 20px;
+
+        display: none;
     }
 
-    .logo-div {
-        /* border: 1px solid green; */
-        height: 20px;
+    .hamburger {
+        border: 1px solid red;
+        height: 40px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 0px 10px; */
     }
 
-    .navbar-2-1st-div>a>h3 {
-        font-size: 10px;
+    .hamburger img {
+        width: 8%;
     }
 
-    .navbar-2-3rd-div {
-        gap: 20px;
-    }
-
-    .cart-value {
-        border: 1px solid white;
-        right: -42%;
-    }
 }
 
 @media screen and (max-width:480px) {
     .navbar-1 {
-        /* display: block; */
-        /* border: 1px solid red; */
-        font-size: 8px;
-        width: 210%;
-        margin-left: 0px;
+        display: none;
 
-        height: 30px;
-        font-size: 10px;
     }
 
     .navbar-2 {
-        /* border: 1px solid red; */
-        width: 205%;
-        /* display: none; */
+        display: none;
+    }
+
+    .hamburger {
+        border: 1px solid red;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 0px 10px; */
+    }
+
+    .hamburger img {
+        width: 13%;
     }
 
     .navbar-2-1st-div>a>h3 {
@@ -164,5 +166,7 @@
         border: 1px solid rgb(249, 251, 249);
         right: -181%;
     }
+
+
 
 }

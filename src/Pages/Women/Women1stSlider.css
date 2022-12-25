@@ -1,0 +1,63 @@
+.women-1st-crouser-con {
+    /* border: 1px solid red; */
+    width: 70%;
+    position: relative;
+    left: 27%;
+    /* gap: 40px; */
+}
+
+/* .women-1st-crouser-con button {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+} */
+.women-1st-con-card {
+    border-radius: 10px;
+    border: 2px solid rgb(188, 185, 185);
+    background-color: white;
+}
+
+@media (max-width:820px) {
+    .women-1st-crouser-con {
+        width: 90%;
+        position: unset;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:420px) {
+
+    .women-1st-crouser-con {
+        /* border: 2px solid rgb(228, 70, 17); */
+        /* height: 300px; */
+        width: 95%;
+        margin: auto;
+    }
+
+    .women-1st-con-card>img {
+        width: 100%;
+    }
+
+    button.slick-arrow.slick-next {
+        /* border: 1px solid green; */
+        position: absolute;
+        right: 10px;
+        top: 45%;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    button.slick-arrow.slick-prev {
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 10px;
+        z-index: 1;
+        top: 45%;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+}

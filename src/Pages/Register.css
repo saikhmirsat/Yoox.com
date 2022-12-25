@@ -86,7 +86,7 @@
 @media screen and (max-width:820px) {
     .register-main-con {
         /* border: 1px solid red; */
-        width: 143%;
+        width: 100%;
     }
 
     .register-2nd-container {
@@ -105,11 +105,11 @@
 
 @media screen and (max-width:480px) {
     .register-main-con {
-        border: 1px solid red;
-        width: 283%;
+        /* border: 1px solid red; */
+        width: 100%;
     }
 
     .register-2nd-container {
-        width: 70%;
+        width: 90%;
     }
 }
