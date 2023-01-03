@@ -85,8 +85,8 @@
 
 @media screen and (max-width:480px) {
     .login-con {
-        /* border: 1px solid red; */
-        width: 283%;
+        border: 1px solid red;
+        width: 100%;
     }
 
     .login-main-con {

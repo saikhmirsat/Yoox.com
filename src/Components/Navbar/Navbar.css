@@ -108,7 +108,7 @@
     }
 
     .hamburger {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 40px;
         width: 100%;
         margin: auto;
@@ -135,7 +135,7 @@
     }
 
     .hamburger {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 40px;
         width: 100%;
         display: flex;

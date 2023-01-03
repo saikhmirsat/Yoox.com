@@ -3,9 +3,11 @@ import AdminIndex from "./AdminIndex";
 import axios from "axios";
 import "./dashboard.css";
 import { Link } from "react-router-dom";
+import EditProduct from "./editProduct";
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
+  // const [form, setForm] = useState([]);
 
 
   useEffect(() => {
@@ -27,9 +29,6 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-main-con">
-      {/* <div>
-        <AdminIndex />
-      </div> */}
       <h2 className="dash-con-header">Dashboard</h2>
       <hr />
 

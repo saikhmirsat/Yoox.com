@@ -1,6 +1,8 @@
 import React from 'react'
-import './Women2ndSlider.css'
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './WomenSingleSlider.css'
 
 const sliderOfImageContainerData = [
     {
@@ -77,7 +79,8 @@ const sliderOfImageContainerData = [
     },
 ]
 console.log(sliderOfImageContainerData)
-export default function Women2ndSlider() {
+
+export default function WomenSingleSlider() {
 
     console.log(sliderOfImageContainerData);
     var settings = {
@@ -87,7 +90,7 @@ export default function Women2ndSlider() {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
@@ -119,10 +122,10 @@ export default function Women2ndSlider() {
     };
 
     return (
-        <div className='women-2nd-crouser-con'>
+        <div className='women-sinle-crouser-con'>
             <Slider {...settings}>
                 {
-                    sliderOfImageContainerData.map((ele, i) => <div className='women-2nd-con-card'>
+                    sliderOfImageContainerData.map((ele, i) => <div className='women-single-con-card'>
                         <img src={ele.img} alt="" />
                         <div>
                             <h4>{ele.title}</h4>

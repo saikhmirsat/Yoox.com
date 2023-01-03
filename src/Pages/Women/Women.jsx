@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer'
 import Women1stSlider from './Women1stSlider'
 import Women2ndSlider from './Women2ndSlider'
 import { Link } from 'react-router-dom'
+import WomenSingleSlider from './WomenSingleSlider'
 
 
 export default function Women() {
@@ -98,14 +99,31 @@ export default function Women() {
         </div>
       </div>
 
-      <div className='women-2nd-slider-con'>
+      <div className='women-crouser-con'>
         <div className='women-new-arr-div'>
           <h1>NEW ARRIVALS</h1>
           <Link>VIEW ALL</Link>
         </div>
+        {/* <Women1stSlider /> */}
         <Women2ndSlider />
       </div>
-
+      <div className='womenn-5th-main-con'>
+        <div>
+          <img src="https://mobile.yoox.com/images/yoox80/banners/6833_3_8byYoox_Special_WM.png?634485886601286852#width=930&height=660" alt="" />
+          <div className='women-its-party-time' >
+            <h2>HERE COMES THE NIGHT</h2>
+            <p>Rock-inspired leather looks and daring details</p>
+            <div className='women-getlook-dis'>
+              <Link>SHOP NOW</Link>
+              <Link>DISCOVER MORE</Link>
+            </div>
+            <br />
+          </div>
+        </div>
+        <div className='Women-sinle-slider-box'>
+          <WomenSingleSlider />
+        </div>
+      </div>
 
 
       <div className='last-div'>

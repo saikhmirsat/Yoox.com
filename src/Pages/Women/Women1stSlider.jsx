@@ -127,9 +127,11 @@ export default function Women1stSlider() {
                 {
                     sliderOfImageContainerData.map((ele, i) => <div className='women-1st-con-card'>
                         <img src={ele.img} alt="" />
-                        <h4>{ele.title}</h4>
-                        <p>{ele.brand}</p>
-                        <p>${ele.price}</p>
+                        <div>
+                            <h4>{ele.title}</h4>
+                            <p>{ele.brand}</p>
+                            <p>${ele.price}</p>
+                        </div>
                     </div>)
                 }
             </Slider>

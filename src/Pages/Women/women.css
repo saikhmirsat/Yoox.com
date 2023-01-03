@@ -19,7 +19,7 @@
 .women-banner-div {
     height: 100%;
     width: 100%;
-    background-image: url('https://www.yoox.com/images/yoox80/banners/6824_1_Xmasdesign_Main.jpg?634485886601286852#width=1380&height=637');
+    background-image: url('https://www.yoox.com/images/yoox80/banners/6895_2_Genz_WM_Main.png?634485886601286852#width=1380&height=637');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,8 +28,8 @@
     /* border: 1px red solid; */
     width: 30%;
     background-color: white;
-    position: absolute;
-    bottom: -190px;
+    position: relative;
+    bottom: 180px;
     left: 60px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -189,12 +189,37 @@ a {
     bottom: 50px;
 }
 
+.womenn-5th-main-con {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 80% 20%);
+}
+
+.Women-sinle-slider-box {
+    /* border: 1px solid gold; */
+}
+
+.women-its-party-time {
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 40%;
+    position: relative;
+    background-color: white;
+    left: 30px;
+    bottom: 180px;
+}
+
 .last-div {
     /* border: 1px solid green; */
 }
 
 .last-con-img-div {
-    height: 500px;
+    width: 95%;
+    margin: auto;
+    height: 650px;
     background-image: url("https://www.yoox.com/images/yoox80/banners/6833_3_8byYoox_Special_WM.png?634485886601286852#width=930&height=660");
 }
 
@@ -202,10 +227,10 @@ a {
     /* border: 1px solid green; */
     width: 30%;
     position: relative;
-    bottom: 180px;
-    left: 30px;
+    bottom: 190px;
+    left: 70px;
     background-color: white;
-
+    padding: 10px;
 }
 
 .women-getlook-dis>a {
@@ -278,6 +303,28 @@ a {
 
     .brands-container-item>p {
         font-size: 12px;
+    }
+
+    .womenn-5th-main-con {
+        width: 95%;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .womenn-5th-main-con img {
+        width: 100%;
+    }
+
+    .Women-sinle-slider-box {
+        display: none;
+    }
+
+    .women-its-party-time {
+        position: unset;
+        /* width: 100%; */
+        background-color: unset;
+        margin: auto;
     }
 
     .last-div-item {
@@ -369,9 +416,15 @@ a {
 
     }
 
+    .women-its-party-time {
+        width: 95%;
+        /* font-size: 10px; */
+    }
+
     .last-div-item {
+        /* border: 1px solid rebeccapurple; */
         position: unset;
-        width: 100%;
+        width: 94%;
     }
 
     .first-container {

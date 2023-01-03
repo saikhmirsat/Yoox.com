@@ -1,0 +1,39 @@
+.women-sinle-crouser-con {
+    /* border: 1px solid red; */
+    width: 130%;
+    position: relative;
+    right: 20%;
+    top: 0px;
+}
+
+.women-sinle-crouser-con>div>img {
+    width: 100%;
+}
+
+.women-single-con-card>div {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.women-sinle-crouser-con .slick-slider>.slick-next {
+    /* border: 1px solid red; */
+    background-color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 260px;
+    top: 30px;
+
+}
+
+.women-sinle-crouser-con .slick-slider>.slick-prev {
+    /* border: 1px solid red; */
+    background-color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 600px;
+    left: 150px;
+}

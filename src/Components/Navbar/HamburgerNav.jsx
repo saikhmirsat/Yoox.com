@@ -30,7 +30,7 @@ export default function HamburgerNav() {
             className='hamburger-main-con'>
             {/* <Link to="/">Resgister</Link>
             <hr /> */}
-            <Link onClick={loginFunc}>Login</Link>
+            <Link onClick={loginFunc}>{checkUserIsAuth ? "My Profile" : "Login"}</Link>
             {
                 login ? <motion.div
                     whileInView={{ y: [-30, 0] }}
@@ -47,7 +47,7 @@ export default function HamburgerNav() {
                 </motion.div> : ""
             }
             <hr />
-            <Link onClick={adminFunc}>Admin</Link>
+            <Link onClick={adminFunc}>{checkAdminIsAuth ? "Admin Profile" : "Admin"}</Link>
             {
                 admin ? <motion.div
                     whileInView={{ y: [-60, 0] }}
