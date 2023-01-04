@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap');
 
 .women-main-full-container {
     /* border: 1px solid red; */
@@ -12,14 +14,14 @@
     width: 95%;
     margin: 0 auto;
     cursor: pointer;
-    height: 600px;
+    height: 650px;
     margin-bottom: 100px;
 }
 
 .women-banner-div {
     height: 100%;
     width: 100%;
-    background-image: url('https://www.yoox.com/images/yoox80/banners/6895_2_Genz_WM_Main.png?634485886601286852#width=1380&height=637');
+    background-image: url('https://www.yoox.com/images/yoox80/banners/6895_3_Genz_WM_Main.png?634485886601286852#width=1380&height=637');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,13 +31,17 @@
     width: 30%;
     background-color: white;
     position: relative;
-    bottom: 180px;
-    left: 60px;
+    bottom: 190px;
+    left: 50px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     text-align: left;
+    padding: 8px;
 }
 
+.here-comes-night>h2 {
+    font-family: Playfair;
+}
 
 .here-comes-night p {
     color: rgb(83, 82, 82);
@@ -93,11 +99,11 @@ a {
     font-weight: lighter;
 }
 
-.designers-list>div {
+.designers-list>div>p {
     /* font-size: 10px; */
     font-weight: bolder;
     color: black;
-    font-family: 'Prosto One', cursive;
+    font-family: Signika+Negative;
 
 }
 
@@ -212,6 +218,11 @@ a {
     bottom: 180px;
 }
 
+.women-its-party-time>h2 {
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
 .last-div {
     /* border: 1px solid green; */
 }
@@ -220,7 +231,7 @@ a {
     width: 95%;
     margin: auto;
     height: 650px;
-    background-image: url("https://www.yoox.com/images/yoox80/banners/6833_3_8byYoox_Special_WM.png?634485886601286852#width=930&height=660");
+    background-image: url("https://mobile.yoox.com/images/yoox80/banners/6824_1_NewBeginning_W_Main.jpg?634485886601286852#width=1380&height=637");
 }
 
 .last-div-item {
@@ -231,6 +242,11 @@ a {
     left: 70px;
     background-color: white;
     padding: 10px;
+}
+
+.last-div-item>h2 {
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
 }
 
 .women-getlook-dis>a {
@@ -330,6 +346,8 @@ a {
     .last-div-item {
         width: 50%;
         padding: 2px 10px;
+        position: unset;
+        width: 100%;
     }
 
 }
@@ -348,7 +366,7 @@ a {
     }
 
     .here-comes-night {
-        width: 100%;
+        width: 95%;
         /* display: none; */
         position: unset;
         background-color: unset;

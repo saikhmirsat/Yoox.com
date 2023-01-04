@@ -16,7 +16,7 @@ export default function Search() {
     }, [text])
 
     return (
-        <div>
+        <div >
             <input className='searchbox' placeholder='Search Products' type="text" onChange={(e) => setText(e.target.value)} />
             {
                 text == "" ? "" : <div className='search-card-div'>
@@ -27,7 +27,7 @@ export default function Search() {
                                 <h5>{ele.title}</h5>
                                 <p>{ele.type}</p>
                                 <h5>${ele.price}</h5>
-                                <p>{ele.size}</p>
+                                <p>size {ele.size}</p>
                             </Link>
                         )
                     }

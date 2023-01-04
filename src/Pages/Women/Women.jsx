@@ -129,12 +129,11 @@ export default function Women() {
       <div className='last-div'>
         <div className='last-con-img-div'></div>
         <div className='last-div-item' >
-          <h2>DAZZLING DRESSES</h2>
-          <p>Special gifts that will leave them speechless</p>
+          <h2>STYLE RESOLUTIONS</h2>
+          <p>Start the new year with these 3 tips</p>
           <div className='women-getlook-dis'>
             <Link>SHOP THE MAGIC </Link>
             <Link >DISCOVER MORE</Link>
-
           </div>
           <br />
         </div>

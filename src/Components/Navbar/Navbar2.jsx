@@ -30,7 +30,7 @@ export default function Navbar2() {
 
     return (
 
-        < div >
+        < div className='nav-2-box'>
             <div className='navbar-2'>
 
                 <div className='navbar-2-1st-div'>
